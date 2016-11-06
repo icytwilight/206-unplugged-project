@@ -105,7 +105,70 @@ Author's custom styles
 ========================================================================== */
 
 
+/* STYLE TILES */
+
+
+/* COLORS =============================================
+Dark Pink (Magenta): #b21e49;
+Light Grey: #eeeeee;
+Bright Pink: #ff1256;
+Dark Grey: #222222;
+Blue: #23a4cc;
+============================================= */
+
+body,
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #eeeeee;
+}
+
+a {
+    font-weight: bold;
+    color: #222222;
+    text-decoration: none;
+}
+
+p {}
+
+h1,
+h2,
+h3,
+h4 {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+form {}
+
+nav {
+    text-transform: uppercase;
+}
+
+input {
+    line-height: 1.75em;
+    margin-bottom: .5em;
+}
+
+.btn {
+    color: #eeeeee;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
 /* MOBILE FIRST STYLES */
+
+@font-face {
+    font-family: 'fontAwesome';
+    src: url('fonts/fontawesome=webfont.eot');
+    src: url('fonts/fontAwesome.otf');
+    src: url('fonts/fontawesome-webfont.ttf');
+}
 
 
 /* Header ================ */
@@ -121,6 +184,8 @@ header {
 }
 
 .logo {
+    font-family: 'Sansita One', cursive;
+    text-transform: capitalize;
     width: 100%;
     margin: auto;
     background-color: #222222;
@@ -154,7 +219,6 @@ main {
     width: 96%;
     padding: 0 2%;
     margin: auto;
-    background-color: pink;
 }
 
 #main-content {
@@ -188,6 +252,13 @@ main {
 .feed-blurb {}
 
 .feed-article {}
+
+
+/* Buttons */
+
+.newsletter-signup .btn {
+    background: #ff1256;
+}
 
 
 /* Main Content on Reviews Details Page & News Details Page */
@@ -285,6 +356,7 @@ footer {
 #footer-logo {
     width: 47.5%;
     margin: auto;
+    padding-top: 2em;
 }
 
 
@@ -473,6 +545,14 @@ Modify as content requires.
     .upcoming-concerts,
     .faq {
         display: block;
+    }
+    /* Footer ================ */
+    footer {
+        width: 100%;
+    }
+    #footer-logo {
+        padding: 0;
+        margin: auto;
     }
 }
 
