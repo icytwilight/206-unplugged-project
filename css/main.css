@@ -117,10 +117,12 @@ header {
 
 .main-header {
     width: 100%;
+    padding: 0;
 }
 
 .logo {
-    width: 100%;margin: auto;
+    width: 100%;
+    margin: auto;
     background-color: #222222;
     color: white;
     text-align: center;
@@ -133,11 +135,16 @@ nav {
 
 nav ul {
     width: 100%;
+    padding: 0;
 }
 
 nav ul li {
     list-style: none;
     text-align: center;
+}
+
+#about-contact-li {
+    display: none;
 }
 
 
@@ -147,7 +154,7 @@ main {
     width: 96%;
     padding: 0 2%;
     margin: auto;
-    background-color: #eeeeee;
+    background-color: pink;
 }
 
 #main-content {
@@ -378,8 +385,15 @@ Modify as content requires.
 @media (min-width: 768px) {
     /* Styles for Tablets */
     /* Header ================ */
+    main {
+        width: 96%;
+        padding: 0 2%;
+        margin: auto;
+        background-color: pink;
+    }
     .main-header {
         width: 94%;
+        padding: 0;
     }
     .logo {
         width: 40%;
@@ -391,6 +405,7 @@ Modify as content requires.
     }
     nav ul {
         float: right;
+        padding: 0;
     }
     nav ul li {
         float: right;
@@ -472,6 +487,7 @@ Modify as content requires.
     /* Header ================ */
     .main-header {
         width: 94%;
+        padding: 0;
     }
     .logo {
         width: 40%;
@@ -483,6 +499,7 @@ Modify as content requires.
     }
     nav ul {
         float: right;
+        padding: 0;
     }
     nav ul li {
         float: right;
